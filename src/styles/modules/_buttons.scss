@@ -1,0 +1,21 @@
+.cta__btn {
+  padding: $padding--cta-btn;
+  border-radius: $border-radius--large;
+  background: rgb(49, 211, 92);
+  background: $gradient-linear;
+  border: none;
+  color: $color--white;
+}
+
+.social {
+  margin-bottom: $padding--small;
+  &__icon + &__icon {
+    padding-left: rem(10px);
+  }
+}
+
+.sitemaps {
+  &__item + &__item {
+    margin-top: $padding--xtra-small;
+  }
+}

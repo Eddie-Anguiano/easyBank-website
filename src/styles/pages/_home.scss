@@ -1,0 +1,75 @@
+.hero {
+  background-color: $color--very-light-gray;
+
+  &__wrapper {
+    display: grid;
+    grid-template-rows: 0.8fr 1fr;
+    text-align: center;
+  }
+
+  &__img-section {
+    position: relative;
+  }
+
+  &__img-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 500px;
+  }
+
+  &__img-phones {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: $index--1;
+    width: 100%;
+  }
+}
+
+.cta {
+  padding-top: rem($padding--large);
+  padding-bottom: rem($padding--large);
+
+  &__heading {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+
+  &__content {
+    padding-top: $padding--small;
+    padding-bottom: $padding--small;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+}
+
+.why {
+  background-color: $color--light-grayish-blue;
+  padding-top: $padding--large;
+  padding-bottom: $padding--large;
+  text-align: center;
+
+  &__container-top {
+    margin-bottom: $padding--large;
+  }
+
+  &__heading {
+    padding-bottom: $padding--small;
+  }
+}
+
+.articles {
+  padding-top: rem($padding--large);
+  padding-bottom: rem($padding--large);
+  background-color: $color--very-light-gray;
+
+  &__container-top {
+    margin-bottom: $padding--small;
+    text-align: center;
+  }
+}

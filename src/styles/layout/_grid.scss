@@ -1,0 +1,10 @@
+.wrapper {
+  padding-left: rem($padding--small);
+  padding-right: rem($padding--small);
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: $padding--small;
+}

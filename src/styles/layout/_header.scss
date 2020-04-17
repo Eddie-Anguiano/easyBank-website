@@ -1,0 +1,11 @@
+.header {
+  position: relative;
+  padding: rem($padding--small) 0;
+  z-index: $index--2;
+  background-color: $color--white;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}

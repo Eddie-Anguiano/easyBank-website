@@ -1,19 +1,22 @@
 /*-------------------------------*/
 /* FONTS */
 /*-------------------------------*/
-// $font-url--google: 'https://fonts.googleapis.com/css?family=Lato:300i,400|Raleway:300i,400,600,700&display=swap';
+$font-url--google: 'https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet';
 
-// $font-family--primary: 'Lato', sans-serif, Helvetica, Arial;
-// $font-family--secondary: 'Raleway', sans-serif, Helvetica, Arial;
+$font-family--primary: "Public Sans", sans-serif;
 
-// $font-weight--light: 300;
-// $font-weight--regular: 400;
-// $font-weight--semi-bold: 600;
-// $font-weight--bold: 700;
+$font-weight--light: 300;
+$font-weight--regular: 400;
 
-$base__font-size: 16px;
+$font-size--base: 16px;
+$font-size--xtra-small: 12px;
+$font-size--small: 14px;
+$font-size--large: 35px;
+
 $base__line: 24px;
 $base__word-spacing: 3px;
+
+$line-height--small: 1.4;
 
 /*-------------------------------*/
 /* BREAKPOINTS */
@@ -27,8 +30,21 @@ $base__word-spacing: 3px;
 /* COLORS */
 /*-------------------------------*/
 
-$color-white: #fff;
-$color-black: rgb(44, 44, 44);
+$color--white: hsl(0, 0%, 100%);
+$color--black: rgb(44, 44, 44);
+
+$color--dark-blue: hsl(233, 26%, 24%);
+$color--grayish-blue: hsl(233, 8%, 62%);
+$color--bright-cyan: hsl(192, 70%, 51%);
+$color--light-grayish-blue: hsl(220, 16%, 96%);
+$color--very-light-gray: hsl(0, 0%, 98%);
+$color--lime-green: hsl(136, 65%, 51%);
+
+$gradient-linear: linear-gradient(
+  90deg,
+  rgba(49, 211, 92, 1) 0%,
+  rgba(43, 183, 218, 1) 100%
+);
 
 /*-------------------------------*/
 /* IMAGE PATH */
@@ -40,12 +56,31 @@ $img-path: "../images";
 /* BORDER RADIUS */
 /*-------------------------------*/
 
-// $border-radius--small: 4px;
-
+$border-radius--small: 4px;
+$border-radius--large: 100px;
 /*-------------------------------*/
 /* ANIMATE.CSS --SASS VERSION*/
-/*-------------------------------*/ // requires e.g. .animated .fadeInDown
+/*-------------------------------*/ // requires // .animated .fadeInDown
 
 // $use-rollOut: true;
 // $use-fadeInDown: true;
 // $base-duration: 3s;
+
+/*-------------------------------*/
+/* PADDING */
+/*-------------------------------*/
+
+$padding--xtra-small: 15px;
+$padding--small: 25px;
+$padding--large: 80px;
+$padding--cta-btn: 15px 25px;
+
+/*-------------------------------*/
+/* Z-INDEX */
+/*-------------------------------*/
+
+$index--1: 1;
+// .hero__img-phones
+// .img__phones
+
+$index--2: 2;

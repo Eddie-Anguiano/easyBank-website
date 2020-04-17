@@ -1,0 +1,22 @@
+.footer {
+  background-color: $color--dark-blue;
+  padding-top: $padding--small;
+  padding-bottom: $padding--small;
+  text-align: center;
+
+  &__container-top {
+    margin-bottom: $padding--small;
+  }
+
+  &__logo {
+    margin-bottom: $padding--small;
+  }
+
+  &__container-bottom > .cta__btn {
+    margin-bottom: $padding--small;
+  }
+}
+
+.sitemaps + .sitemaps {
+  margin-top: $padding--xtra-small;
+}

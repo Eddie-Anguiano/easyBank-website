@@ -1,0 +1,29 @@
+.hamburger {
+  @extend %center;
+  height: rem(20px);
+  width: rem(20px);
+  &__line {
+    position: relative;
+    height: rem(2px);
+    width: 100%;
+    background-color: $color--dark-blue;
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: rem(2px);
+      width: 100%;
+      background-color: $color--dark-blue;
+      transform: translateY(-6px);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: rem(2px);
+      width: 100%;
+      background-color: $color--dark-blue;
+      transform: translateY(6px);
+    }
+  }
+}

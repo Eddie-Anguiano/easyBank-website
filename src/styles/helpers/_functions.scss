@@ -1,8 +1,8 @@
 /*-------------------------------*/
 /* CALCULATE EM VALUSE */
 /*-------------------------------*/
-@function em($target, $context: $base__font-size) {
-  @return ($target / $context) * 1em;
+@function rem($target, $context: 18px) {
+  @return ($target / $context) * 1rem;
 }
 
 /*-------------------------------*/

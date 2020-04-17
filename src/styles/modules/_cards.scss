@@ -1,0 +1,35 @@
+.card-icon-3 {
+  &__icon {
+    padding-bottom: $padding--small;
+  }
+
+  &__heading {
+    padding-bottom: $padding--small;
+  }
+}
+
+.card-picture-4 {
+  height: rem(400px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: $border-radius--small;
+
+  &__img {
+    max-height: 50%;
+    object-fit: cover;
+  }
+
+  &__container-bottom {
+    padding: $padding--small;
+    background-color: $color--white;
+  }
+
+  &__author {
+    padding-bottom: $padding--xtra-small;
+  }
+
+  &__heading {
+    padding-bottom: $padding--xtra-small;
+  }
+}
